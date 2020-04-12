@@ -301,11 +301,8 @@ try:
             input(ch(wrn) + 'Enter untuk lanjut')
             cls()
             wel()
-
-   										
-		except:
-			pass
-		
+	except:
+		pass
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
