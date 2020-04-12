@@ -301,31 +301,11 @@ try:
             input(ch(wrn) + 'Enter untuk lanjut')
             cls()
             wel()
-	except:
-		pass
-	p = ThreadPool(30)
-	p.map(main, id)
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
-	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;97m....'
-	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
-	print """
-             
-             ──────╔═══════╗──────
-             ▒▓▒▓▒▒║░░░║░░░║▒▒▓▒▓▒
-             ▒▓▒▓▒▒║░░░╬═░░║▒▒▓▒▓▒
-             ▒▓▒▓▒▒║░░░░░░░║▒▒▓▒▓▒
-             ──────╚═══════╝──────    
-             Checkpoint ID Open After 7 Days
 
-•\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;94m .....lovehacker  Kali.linux....... \033[1;97m :
-•\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
-                WhatsApp Num
-              \033[1;94m +923094161457"""
-	
-	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+    except:
+        pass
 
-if __name__ == '__main__':
-	login()
+finally:
+    print(f"{ch(wrn)}Memanfaatkan pengguna yang ceroboh\n{ch(wrn)}CTRL-Z: keluar dgn paksa\n{ch(wrn)}Github: https://git.io/fjiQH\nsilahkan check pembaruan dengan mengetik python update.py")
+    open('.versi.txt', 'w').write('versi: 2.24')
+# okay decompiling ME.pyc 
