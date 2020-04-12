@@ -351,7 +351,6 @@ bacaData()
 menu()
 #### login ####
 def login():
-cb()
 try:
 	tb=open('token.txt', 'r')
 	menu() 
