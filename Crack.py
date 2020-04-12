@@ -949,8 +949,8 @@ if __name__ == '__main__':
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;97m....'
-	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;96m"+str(len(cekpoint))
-	print ""'
+	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
+	print """
              
              ──────╔═══════╗──────
              ▒▓▒▓▒▒║░░░║░░░║▒▒▓▒▓▒
@@ -963,20 +963,10 @@ if __name__ == '__main__':
 : \033[1;94m .....lovehacker  Kali.linux....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
-              \033[1;94m +923094161457""
+              \033[1;94m +923094161457"""
 	
-		else:
-        if '"is_shielded":false' in res.text:
-            os.system('clear')
-            print 'logo'
-            print 52 * '\x1b[1;97m\xe2\x95\x90'
-            print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;91mDeactivated'
-            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            lain()
-        else:
-            print "'\x1b[1;91m[!] Error'
-            keluar()
-
+	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
+	menu()
 
 if __name__ == '__main__':
-	login()"
+	login()
