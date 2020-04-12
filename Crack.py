@@ -499,7 +499,11 @@ def pilih_super():
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
-else:
+	
+if __name__ == '__main__':
+	login()
+
+	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_super()
 	
@@ -651,7 +655,11 @@ else:
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
-else:
+	
+if __name__ == '__main__':
+	login()
+
+	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_super()
 	
@@ -803,7 +811,11 @@ else:
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
-else:
+	
+if __name__ == '__main__':
+	login()
+
+	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_super()
 	
