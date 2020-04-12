@@ -802,10 +802,6 @@ def pilih_super():
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
-
-if __name__ == '__main__':
-	login()
-                    
             else:
                 if peak == '3':
                     os.system('clear')
@@ -1394,9 +1390,6 @@ def id_friends():
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 
-if __name__ == '__main__':
-	login()
-
 def idfrom_friends():
     os.system('clear')
 		print logo
@@ -1578,10 +1571,6 @@ def idfrom_friends():
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
-
-if __name__ == '__main__':
-	login()
-
 def id_member_grup():
     os.system('clear')
 		print logo
@@ -1766,9 +1755,6 @@ def id_member_grup():
 
 if __name__ == '__main__':
 	login()
-
-
-
 def email():
     os.system('clear')
     try:
