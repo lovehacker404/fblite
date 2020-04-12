@@ -950,7 +950,7 @@ if __name__ == '__main__':
 	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
 	print '\033[1;94m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;94mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;96m"+str(len(cekpoint))
-	print """
+	print ""
              
              ──────╔═══════╗──────
              ▒▓▒▓▒▒║░░░║░░░║▒▒▓▒▓▒
