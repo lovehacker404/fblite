@@ -963,7 +963,7 @@ if __name__ == '__main__':
 : \033[1;94m .....lovehacker  Kali.linux....... \033[1;97m :
 •\033[1;97m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
-              \033[1;94m +923094161457"""
+              \033[1;94m +923094161457""
 	
 		else:
         if '"is_shielded":false' in res.text:
