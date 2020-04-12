@@ -968,14 +968,5 @@ if __name__ == '__main__':
 		raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 
-def super():
-	global toket
-	os.system('clear')
-	try:
-		toket=open('login.txt','r').read()
-	except IOError:
-		print"\x1b[1;94mToken invalid"
-		os.system('rm -rf login.txt')
-		time.sleep(1)
-		login()
-		
+if __name__ == '__main__':
+	login()
